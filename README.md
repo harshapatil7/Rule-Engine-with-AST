@@ -148,26 +148,26 @@ const RuleSchema = new mongoose.Schema({
 ### Endpoints
 
   1. Create Rule
-        `POST /api/rules`
-        Request Body: `{ "ruleString": "<rule_string>" }`
-        Response: The created rule with its AST.
+        * `POST /api/rules`
+        * Request Body: `{ "ruleString": "<rule_string>" }`
+        * Response: The created rule with its AST.
 
   2. Get All Rules
-        `GET /api/rules`
-        Response: An array of all rules.
+        * `GET /api/rules`
+        * Response: An array of all rules.
 
   3. Delete Rule
-        `DELETE /api/rules/:id`
-        Response: No content (204).
+        * `DELETE /api/rules/:id`
+        * Response: No content (204).
 
   4. Get Combined Rules
-        `GET /api/rules/combine`
-        Response: The combined AST of all rules.
+        * `GET /api/rules/combine`
+        * Response: The combined AST of all rules.
 
   5. Evaluate Rule
-        `POST /api/rules/evaluate`
-        Request Body: `{ "ast": <AST>, "data": { "age": 35, "department": "Sales", "salary": 60000, "experience": 3 } }`
-        Response: `{ "result": true/false }`
+        * `POST /api/rules/evaluate`
+        * Request Body: `{ "ast": <AST>, "data": { "age": 35, "department": "Sales", "salary": 60000, "experience": 3 } }`
+        * Response: `{ "result": true/false }`
 
 ## Setup Instructions
 
@@ -301,21 +301,21 @@ http://localhost:3000/
 ### Using MongoDB Atlas (Cloud Installation)
 
   1. Sign Up for an Account:
-        Go to the [MongoDB Atlas website](https://www.mongodb.com/products/platform/atlas-database) and create an account.
+        * Go to the [MongoDB Atlas website](https://www.mongodb.com/products/platform/atlas-database) and create an account.
 
   2. Create a New Cluster:
-        Once logged in, click on the **"Build a Cluster"** button.
-        Choose the free tier option and follow the prompts to select your cloud provider and region.
+        * Once logged in, click on the **"Build a Cluster"** button.
+        * Choose the free tier option and follow the prompts to select your cloud provider and region.
 
   3. Configure Cluster:
-        After your cluster is created, you’ll need to set up database access by creating a user with a username and password.
+        * After your cluster is created, you’ll need to set up database access by creating a user with a username and password.
 
   4. Get the Connection String:
-        Go to your cluster in the Atlas dashboard, click on the **"Connect"** button, and choose **"Connect your application"**.
-        Copy the connection string provided, replacing `<password>` with the password for the user you created.
+        * Go to your cluster in the Atlas dashboard, click on the **"Connect"** button, and choose **"Connect your application"**.
+        * Copy the connection string provided, replacing `<password>` with the password for the user you created.
 
   5. Connect Using MongoDB Compass (Optional):
-        You can also use [MongoDB Compass](https://www.mongodb.com/try/download/compass) for a graphical interface to manage your databases. Download and install Compass, then use the connection string to connect to your Atlas cluster.
+        * You can also use [MongoDB Compass](https://www.mongodb.com/try/download/compass) for a graphical interface to manage your databases. Download and install Compass, then use the connection string to connect to your Atlas cluster.
 
 ## For queries contact
 
