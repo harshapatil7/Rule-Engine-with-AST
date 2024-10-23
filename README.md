@@ -20,9 +20,9 @@ The Rule Engine application is a 3-tier system designed to determine user eligib
 
 The application is structured into three main tiers:
 
-   `Frontend`: A simple UI built with Next.js.
-   `Backend`: A REST API built with Express.js.
-   `Database`: MongoDB for storing rules and application metadata.
+   * `Frontend`: A simple UI built with Next.js.
+   * `Backend`: A REST API built with Express.js.
+   * `Database`: MongoDB for storing rules and application metadata.
 
 ## Data Structure
 
