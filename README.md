@@ -18,7 +18,11 @@ The Rule Engine application is a 3-tier system designed to determine user eligib
 
 ## Architecture
 
-Raft is a consensus algorithm designed to be easy to understand. This project implements key functionalities of Raft, including leader election and log replication, to provide fault tolerance in a distributed system. The implementation includes handling scenarios like network partitioning and node recovery.
+The application is structured into three main tiers:
+
+   `Frontend`: A simple UI built with Next.js.
+   `Backend`: A REST API built with Express.js.
+   `Database`: MongoDB for storing rules and application metadata.
 
 ## Data Structure
 
