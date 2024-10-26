@@ -12,7 +12,7 @@ The Rule Engine application is a 3-tier system designed to determine user eligib
    4. [Data Storage](#data-storage)
    5. [API Design](#api-Design)
    6. [Setup Instructions](#setup-instructions)
-   7. [Testing](#testing)
+   7. [Demo Video](#Demo-Video)
    8. [Bonus Features](#bonus-features)
    9. [Contact](#for-queries-contact)
 
@@ -224,15 +224,17 @@ npm run dev
 http://localhost:3000/
 ```
 
-## Testing
+## Demo Video
+
+
+https://github.com/user-attachments/assets/2df2f472-503b-40c6-9e28-dc98dfa0f70c
+
 
 ## Bonus Features
 
 * Implement error handling for invalid rule strings or data formats.
 * Allow modification of existing rules.
 * Visual Display of the `AST of Rules` for users. 
-
-## Expected Behavior
 
 ## Things you go through before starting
 
